@@ -19,24 +19,17 @@ php:
   environment:
     APP_ENV: local
     APP_DEBUG: 'true'
-    APP_KEY: SomeRandomKey!!!
+    APP_KEY: w2j3k5n6p7r9s2k4m5n7q8r9t3k4m693
     APP_LOCALE: en
     APP_FALLBACK_LOCALE: en
-    DB_CONNECTION: mysql
-    DB_HOST: db
-    DB_DATABASE: lumen
-    DB_USERNAME: lumen
-    DB_PASSWORD: secret
     MEMCACHED_HOST: cache
     CACHE_DRIVER: memcached
 db:
-  image: mysql
-  ports:
-    - "3306:3306"
-  environment:
-    MYSQL_ROOT_PASSWORD: secret
-    MYSQL_DATABASE: lumen
-    MYSQL_USER: lumen
-    MYSQL_PASSWORD: secret
+    image: mongo:latest
+    container_name: cfln_mongodb
+    volumes:
+      - /data/db
+    ports:
+      - "27017:27017"
 cache:
   image: memcached
