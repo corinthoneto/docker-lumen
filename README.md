@@ -18,6 +18,13 @@ cd images/php
 docker run --rm -it -v $(pwd):/app saada/lumen-cli lumen new app
 ```
 
+## Existent Lumen App (considering app folder is the folder project)
+
+```bash
+cd images/php/app
+docker run --rm -it -v $(pwd):/app saada/lumen-cli composer install
+```
+
 ### Configuration
 
 To change configuration values, look in the `docker-compose.yml` file and change the `php` container's environment variables. These directly correlate to the Lumen environment variables.
