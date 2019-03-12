@@ -1,7 +1,5 @@
 # Docker + Lumen with Nginx and MySQL
 
-![image](Lumen_splash.png)
-
 This setup is great for writing quick apps in PHP using Lumen from an any Docker client. It uses docker-compose to setup the application services.
 
 ## Clone this repo
