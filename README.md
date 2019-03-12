@@ -18,7 +18,7 @@ cd images/php
 docker run --rm -it -v $(pwd):/app saada/lumen-cli lumen new app
 ```
 
-## Existing Lumen App (considering app folder is the folder project)
+## Existing Lumen App (considering that the app folder is a folder of your project)
 
 ```bash
 cd images/php/app
