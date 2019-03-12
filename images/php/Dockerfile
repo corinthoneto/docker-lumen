@@ -42,8 +42,7 @@ RUN apk --no-cache --update --repository http://dl-cdn.alpinelinux.org/alpine/v$
 && pecl install \
     imagick-$IMAGICK_VERSION \
     # amqp-$AMQP_VERSION \
-    mongodb-$MONGODB_VERSION \
-
+    mongodb-$MONGODB_VERSION \ 
 # lumen packages
 && docker-php-ext-install mbstring tokenizer mysqli pdo_mysql sockets gd intl opcache bcmath \
 && docker-php-ext-enable \
