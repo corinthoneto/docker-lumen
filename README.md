@@ -5,7 +5,7 @@ This setup is great for writing quick apps in PHP using Lumen from an any Docker
 ## Clone this repo
 
 ```bash
-git clone https://github.com/saada/docker-lumen.git
+git clone https://github.com/corinthoneto/docker-lumen.git
 cd docker-lumen
 ```
 
