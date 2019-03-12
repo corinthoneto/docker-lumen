@@ -55,7 +55,3 @@ Feel free to configure the default port 80 in `docker-compose.yml` to whatever y
 ```bash
 docker-compose stop
 ```
-
-## Contribute
-
-Submit a Pull Request!
