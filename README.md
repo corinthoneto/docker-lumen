@@ -35,13 +35,15 @@ docker run --rm -it -v $(pwd):/app saada/lumen-cli composer require jenssegers/m
 
 To change configuration values, look in the `docker-compose.yml` file and change the `php` container's environment variables. These directly correlate to the Lumen environment variables.
 
-## Docker Setup
+## Docker and Docker Compose Setup
 
 ### [Docker for Mac](https://docs.docker.com/docker-for-mac/)
 
 ### [Docker for Windows](https://docs.docker.com/docker-for-windows/)
 
 ### [Docker for Linux](https://docs.docker.com/engine/installation/linux/)
+
+### [Docker compose](https://docs.docker.com/compose/)
 
 ### Build & Run
 
